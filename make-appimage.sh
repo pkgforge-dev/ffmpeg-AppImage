@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://github.com/FFmpeg.png
 export DESKTOP=DUMMY
 export MAIN_BIN=ffmpeg
+export DEPLOY_SDL=0
 
 # Deploy dependencies
 quick-sharun \
